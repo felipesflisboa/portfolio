@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.site-container{
+	font-family: Ubuntu, serif;
+}
+.site-main-box{
+	position: relative;
+}
+.page-title {
+	font-family: Montserrat, sans;
+  background-color: #ccc;
+	text-align:center;
+	padding-bottom:12px;
+	margin-bottom:0px;
+}
+.page-subtitle {
+	font-family: Montserrat, sans;
+	text-align:center;
+	padding:16px;
+	padding-top:2px;
+	margin:0px
+}
+.page-footer {
+  background-color: #ddd;
+	margin-top:48px;
+	margin-bottom:0;
+	padding-top:12px;
+	padding-bottom:24px;
+	text-align:center;
+}
+.game-main-box {
+	margin: 8px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.game-data-box {
+  background-color: #555;
+	color: white;
+  border-radius: 8px;
+}
+
+.game-data-box .panel-heading{
+  margin-bottom: 12px;
+  background-color: #222;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.game-description-box{
+  text-align: justify;
+}
+
+.button-symbol{
+  font-size: 42px;
+	background-color: black;
+	color: white;
+}
+
+/* ========= VIDEO ========= */
+.video-container{
+	width:100%;
+	background-color: black;
+}
+.video-container > div{
+	padding: 0;
+	margin:0 auto;
+}
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+@media (max-width: 9000px) {
+	.video-container > div {width:60%;}
+}
+@media (max-width: 1200px) {
+	.video-container > div {width:75%;}
+}
+@media (max-width: 900px) {
+	.video-container > div {width:100%;}
+}
+/* ========= CAROUSEL ========= */
+.carousel{
+	background-color: black;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	margin: auto;
+}
+@media (max-width: 9000px) {
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img{max-height:800px;}
+}
+@media (max-width: 1800px) {
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img{max-height:500px;}
+}
+@media (max-width: 900px) {
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img{max-height:350px;}
+}
+@media (max-width: 600px) {
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img{max-height:200px;}
+}
+
+/* ========= ICON BAR ========= */
+.icon-bar {
+	padding: 0;
+	text-align: center;
+	background-color: #555;
+	border-radius: 8px;
+}
+.icon-bar a {
+	padding: 16px;
+	display: block;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 40px;
+	border-radius: 8px;
+}
+.icon-bar a:hover {
+	background-color: #999;
+	border-radius: 8px;
+}
+.active {
+	background-color: black !important;
+	border-radius: 8px;
+}
+
+/* ========= IMAGE GRID ========= */
+.image-grid {
+	max-width:4000px;
+	margin:0 auto; /*center aligned*/
+	padding:0;
+	font-size:0;
+	list-style:none;
+	background-color:#FFF;
+}
+.image-grid li {
+	display: inline-block;
+	width:33.33%;
+	vertical-align:middle;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+		
+/* The wrapper for each item */
+.image-grid-cell {
+	display:block;
+	position: relative;
+	overflow:hidden;
+}
+		
+/* If have the image layer */
+.image-grid-img {
+	display:block;
+	width: 100%;
+	height: auto;
+	border:none;
+	transform:scale(1);
+	transition:all 1s;
+}
+
+.image-grid li:hover .image-grid-img {
+	transform:scale(1.1);
+}
+		
+/* If have the overlay layer */
+.image-grid-overlay {
+	position: absolute;
+	display:block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: #000 url(img/link.png) no-repeat center 20%;
+	background-size:50px 50px;
+	opacity:0;
+	filter:alpha(opacity=0);/*For IE6 - IE8*/
+	transition:all 0.6s;
+}
+.image-grid li:hover .image-grid-overlay {
+	opacity:0.5;
+}
+
+/* If have captions */
+.image-grid-text {
+	display:block;
+	padding:0 30px;
+	box-sizing:border-box;
+	position:absolute;
+	left:0;
+	width:100%;
+	text-align:center;
+	text-transform:capitalize;
+	font-size:32px;
+	font-weight:bold;
+	top:40%;
+	color:white;
+	opacity:0;
+	filter:alpha(opacity=0);/*For older IE*/
+	transform:translateY(-20px);
+	transition:all .3s;
+}
+.image-grid li:hover .image-grid-text {
+	transform:translateY(0px);
+	opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+	.image-grid li {width:33.33%;}
+}
+@media (max-width: 1000px) {
+	.image-grid li {width:50%;}
+}
+@media (max-width: 650px) {
+	.image-grid li {width:100%;}
+}
