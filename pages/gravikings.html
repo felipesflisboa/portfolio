@@ -65,14 +65,23 @@
 						</div>
 					</div>
 					<div class="game-description-box col-sm-8">
+						<div class="page-subtitle">
+							<h4>Introdução</h4>
+						</div>
 						<p>Esse jogo é dividido em dois modos: O modo de exploração que o jogador explora diferentes biomas em caçando monstros para ganhar experiência e materiais para forjar armas e assim tornar seu personagem mais forte. No modo arena o jogador disputa prêmios com até 15 aliados ou oponentes, separados em equipes, sejam bots ou outros jogadores via internet. </p>
+						<div class="page-subtitle">
+							<h4>Informações</h4>
+						</div>
 						<p>Todos os dados de cada jogador ficam salvos na nuvem, assim é possível evoluir o seu personagem no tablet e continuar depois na versão para computadores. Também conta com um editor de estágio para o modo arena e lista de amigos. Ao utilizar outros jogos da franquia Gravikings, como o Gravikings Runners, um jogador pode ganhar itens para ser usado no jogo principal.</p>
+						<div class="page-subtitle">
+							<h4>Minha participação</h4>
+						</div>
 						<p>Participei do desenvolvimento do projeto desde o início. Minha atuação:</p>
 						<ul>
 							<li>Toda a parte de inteligência artificial: Monstros e bots dos jogadores que contam com três opções de dificuldade, mais o comportamento deles para o pique-bandeira. A IA é modularizada utilizando uma máquina de estados finitos. Assim, é possível acoplar e desacoplar a IA apenas adicionando um componente. Ela usa sistema de NavMesh, mas apenas para para gerar rotas, já que a movimentação dos personagens utiliza física e a movimentação com NavMesh não funciona com RigidBody.</li>
 							<li>Toda a parte relacionada a monstros, inclusive comportamento individuais de cada espécie, como monstros que são agressivos e outros que só atacam ao serem atacados.</li>
 							<li>Exportação de dados definidos em arquivos csv para serem aplicados nos prefabs ou ScriptableObjects, dessa forma tornando mais fácil a edição de monstros a partir de editores como Microsoft Excel ou Google Sheets.</li>
-							<li>Criação de um sistema de comunicação assíncrono com o servidor utilizando UnityWebRequest.</li>
+							<li>Criação de um sistema de comunicação assíncrono com o servidor utilizando UnityWebRequest junto ao JsonUtility.</li>
 							<li>Portabilidade e otimização para Mobile (Android/iOS).</li>
 							<li>Suporte a vários tipos de Joysticks, inclusive controles na GUI para versão mobile. Implementei utilizando InControl.</li>
 							<li>Parte da criação do sistema de itens que podem ser adicionados no cenário, como a balista.</li>
@@ -84,8 +93,8 @@
 						</ul>
 					</div>
 					<div class="icon-bar col-sm-1">
-						<a class="active"><i class="fa fa-download"></i></a>
-						<a href="#"><i class="fa fa-remove" data-toggle="tooltip" data-placement="bottom" title="Link indisponível"></i></a>
+						<a class="active"><i class="fa fa-external-link"></i></a>
+						<a href="https://youtu.be/905yo2CI828" target="_blank"><i class="fa fa-youtube"></i></a>
 					</div>
 				</div>
 			</div>

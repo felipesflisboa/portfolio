@@ -51,7 +51,7 @@ function playAnimation(){
 		}
 		$(CONTAINER_CLASS).animate(animation, 1).animate({top: '0px', left: '0px'}, 2000);
 	}
-	function scale(){
+	function scale(){ // Removed
 		$(CONTAINER_CLASS).animate({
 			height: 0.01,
 			width: 0.01
@@ -61,11 +61,10 @@ function playAnimation(){
 		}, 2000);
 	}
 	
-	var randomIndex =  Math.floor(4 * Math.random());
+	var randomIndex =  Math.floor(3 * Math.random());
 	switch (randomIndex) {
 		case 0:	slide();								break;
 		case 1:	fade();									break;
 		case 2: move(Math.floor(4 * Math.random()));	break;
-		case 3: scale();								break;
 	}
 }
