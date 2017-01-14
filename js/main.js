@@ -3,7 +3,7 @@ $(document).ready(function(){ // For tooltip
 });
 
 /**
- * Switch every div with the attribute  w3-include-html="pagename" for this page HTML code.
+ * Switch every div with the attribute w3-include-html="pagename" for this page HTML code.
  * Call this function once at document end.
 **/	
 function w3IncludeHTML() {
