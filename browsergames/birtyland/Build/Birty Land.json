@@ -1,0 +1,13 @@
+{
+"companyName": "Felipe Lisboa",
+"productName": "Birty Land",
+"dataUrl": "Birty Land.data.unityweb",
+"asmCodeUrl": "Birty Land.asm.code.unityweb",
+"asmMemoryUrl": "Birty Land.asm.memory.unityweb",
+"asmFrameworkUrl": "Birty Land.asm.framework.unityweb",
+"TOTAL_MEMORY": 83886080,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#204020"
+}
