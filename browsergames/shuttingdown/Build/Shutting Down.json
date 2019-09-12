@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Shutting Down",
+"dataUrl": "Shutting Down.data.unityweb",
+"asmCodeUrl": "Shutting Down.asm.code.unityweb",
+"asmMemoryUrl": "Shutting Down.asm.memory.unityweb",
+"asmFrameworkUrl": "Shutting Down.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#9D0635"
+}
