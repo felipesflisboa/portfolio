@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Ri Happy Caça aos Ovos</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex,nofollow" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="../js/main.js"></script>
+	</head>
+	<body>
+		<div class="site-container">
+			<div w3-include-html="top_menu.html"></div> 
+			<div class="site-main-box">
+				<div class="page-title jumbotron">
+					<h1>Ri Happy Caça aos Ovos</h1>
+				</div>
+				<div id="gameScreenCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+					<ol class="carousel-indicators">
+						<li data-target="#gameScreenCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#gameScreenCarousel" data-slide-to="1"></li>
+						<li data-target="#gameScreenCarousel" data-slide-to="2"></li>
+						<li data-target="#gameScreenCarousel" data-slide-to="3"></li>
+						<li data-target="#gameScreenCarousel" data-slide-to="4"></li>
+						<li data-target="#gameScreenCarousel" data-slide-to="5"></li>
+						<li data-target="#gameScreenCarousel" data-slide-to="6"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="../img/cacaaosovos1.png" />
+						</div>
+						<div class="item">
+							<img src="../img/cacaaosovos2.png" />
+						</div>
+						<div class="item">
+							<img src="../img/cacaaosovos3.png" />
+						</div>
+						<div class="item">
+							<img src="../img/cacaaosovos4.png" />
+						</div>
+						<div class="item">
+							<img src="../img/cacaaosovos5.png" />
+						</div>
+						<div class="item">
+							<img src="../img/cacaaosovos6.png" />
+						</div>
+						<div class="item">
+							<img src="../img/cacaaosovos7.png" />
+						</div>
+					</div>
+					<a class="left carousel-control" href="#gameScreenCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#gameScreenCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<br />
+				<div class="game-main-box row content">
+					<div class="well game-data-box col-sm-3 sidenav">
+						<div class="panel-heading">Dados</div>
+						<div>
+							<strong>Equipe/Empresa: </strong>Virgo Game Studios 
+							<br />
+							<strong>Ano em que desenvolvi: </strong>2019
+							<br />
+							<strong>Ferramenta utilizada: </strong>Unity
+							<br />
+							<strong>Linguagem: </strong>C#
+							<br />
+							<strong>Plataformas: </strong>Android e iOS
+							<br />
+							<strong>Gênero: </strong>Ação/Puzzle
+						</div>
+					</div>
+					<div class="game-description-box col-sm-8">
+						<div class="page-subtitle">
+							<h4>Introdução</h4>
+						</div>
+						<p></p>
+						<p>No Caça aos Ovos Premiados o jogador precisa encontrar os ovos que o Solzinho escondeu em outra dimensão nas lojas da Ri Happy. Escaneando os QR Codes espalhados pela loja da Ri Happy durante a campanha o jogador tem a chance de encontrar e colecionar ovos customizados em uma brincadeira de quente ou frio em AR. Usando um cupom ganho em compras o jogador pode abrindo os ovos coletados e ganhar prêmios na loja.</p>
+						<div class="page-subtitle">
+							<h4>Informações</h4>
+						</div>
+						<p>O jogo conta com um sistema de cadastro na nuvem e sincronização de contas. Há powerups de lupa e binóculo no sorteio. Ele chegou a ficar em sétimo lugar na categoria aventura, na App Store e ultrapassou 100.000 downloads na Play Store. Também teve um comercial na televisão.</p>
+						<div class="page-subtitle">
+							<h4>Minha participação</h4>
+						</div>
+						<ul>
+							<li>A maior parte da ponta front-end do sistema de comunicação com o servidor para informar os códigos escaneados. Códigos tanto das loja jogadas quanto baixa dos cupons, incluindo fallback de erros e sincronização ao conectar com contas já existentes.</li>
+							<li>Boa parte do sistema de detecção de AR (usando giroscópio e acelerômetro).</li>
+							<li>Sistema de escanear QR Codes usando o <a href="https://github.com/kefniark/UnityBarcodeScanner" target="_blank">Unity Barcode Scanner</a>.</li>
+							<li>A lógica de jogo, aparecimento e captura dos ovos.</li>
+							<li>A maior parte das telas de menu, implementadas com UGUI.</li>
+							<li>Inventário de ovos.</li>
+							<li>Sistema de diálogo.</li>
+							<li>Sistema de tutorial.</li>
+							<li>Sistema de Powerups.</li>
+							<li>Login com Facebook.</li>
+							<li>Notificações locais com <a href="https://assetstore.unity.com/packages/tools/integration/utnotifications-professional-local-push-notification-plugin-37767" target="_blank">UTNotifications</a>.</li>
+							<li>Auxiliei na correção de vários bugs.</li>
+						</ul>
+					</div>
+					<div class="icon-bar col-sm-1">
+						<a class="active"><i class="fa fa-external-link"></i></a>
+						<a href="https://www.youtube.com/watch?v=auxavEu_omw" target="_blank"><i class="fa fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+  <script>
+		w3IncludeHTML();
+		$(document).ready(function(){
+			playAnimation();
+		});
+  </script>
+</html>
