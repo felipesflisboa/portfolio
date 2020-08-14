@@ -94,16 +94,16 @@
 							<h4>Minha participação</h4>
 						</div>
 						<ul>
-							<li>Toda a parte de carros NPCs, inclusive inteligência artificial. Eles utilizam ruas mapeadas com nodes e sistema de semáforo entre eles. Conta com detecção de colisão que varia conforme a velocidade do veículo. Há tratamento com Pool para os veículos serem desativados quando se distanciam muito do jogador e novos são ativados nas proximidades, mas sempre fora da visão do jogador. Áreas como cidades possuem uma maior quantidade de carros.</li>
+							<li>Toda a parte de carros NPCs, inclusive inteligência artificial. Eles utilizam ruas mapeadas com nodes e sistema de semáforo. Conta com detecção de colisão que varia conforme a velocidade do veículo. Há tratamento com Pool para os veículos próximos/distantes, sempre ativando/desativando longe da visão do jogador. Áreas como cidades possuem mais carros.</li>
 							<li>Toda a parte de pedestres. Os que se movimentam são spawnados nos quarteirões e se movem através de nodes. O restante é fixo e apenas toca uma animação em loop. As animações são desativadas quando o jogador se distancia muito.</li>
-							<li>Utilização de múltiplos lightmaps para noite e dia com base no <a href="https://github.com/laurenth-unity/lightmap-switching-tool" target="_blank">Lightmap Switching Tool</a>.</li>
+							<li>Utilização de múltiplos lightmaps para noite e dia. Usa o <a href="https://github.com/laurenth-unity/lightmap-switching-tool" target="_blank">Lightmap Switching Tool</a>.</li>
 							<li>Parte front-end do sistema de outdoors para exibição de propagandas. Quando o jogo é aberto, ele manda para o servidor a data de última atualização, que responde com as urls das imagens modificadas após essa data e é realizado o download no cliente. Durante o gameplay, as imagens são carregadas nas dezenas de outdoors correspondentes no mundo.</li>
 							<li>Toda a parte de minimapa (GPS), exceto as rotas de menor destino. Feito com World Space da UGUI.</li>
-							<li>Gerenciamento de cena na tela de seleção de missões. Durante essa seleção a cena de gameplay fica sempre carregada para diminuir o intervalo de espera no seu recarregamento entre as missões.</li>
+							<li>Gerenciamento de cena na tela de seleção de missões. Durante essa seleção a cena de gameplay fica sempre carregada para diminuir o intervalo de espera entre as missões.</li>
 							<li>Sistema de abastecimento e descanso.</li>
 							<li>Sistema de áreas de perigo, de velocidade máxima, curva perigosa e preservação ambiental.</li>
 							<li>Sistema de missões.</li>
-							<li>Auxiliei na correção de vários bugs.</li>
+							<li>Correções de bugs.</li>
 						</ul>
 					</div>
 					<div class="icon-bar col-sm-1">
