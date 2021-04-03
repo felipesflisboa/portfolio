@@ -52,14 +52,52 @@
 }
 
 .game-description-box{
-  text-align: justify;
+	text-align: justify;
 }
 
 .button-symbol{
-  font-size: 42px;
+	font-size: 42px;
 	background-color: black;
 	color: white;
 }
+
+/* ========= TABS ========= */
+.nav-tabs{
+	background-color: black;
+	font-size: 24px;
+}
+
+.nav-tabs > li.active > a {
+	background-color: #eee;
+	color: #333;
+}
+
+.nav-tabs > li > a {
+	color: white;
+}
+
+.nav-tabs > li > a:hover {
+	background-color: white;
+	color: #555;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li > a , .nav-tabs > li > a:hover {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* //remove
+.nav-tabs > li{
+	padding-right: 20px;
+}
+*/
+
+/* //remove
+.tab-content > .active{
+	background-color: blue;
+	border-radius: 0px;
+}
+*/
 
 /* ========= VIDEO ========= */
 .video-container{
