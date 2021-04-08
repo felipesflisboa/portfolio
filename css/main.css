@@ -10,7 +10,7 @@
 }
 .page-title {
 	font-family: Montserrat, sans;
-  background-color: #ddd;
+  	background-color: #ddd;
 	text-align:center;
 	padding-bottom:12px;
 	margin-bottom:0px;
@@ -23,7 +23,7 @@
 	margin:0px
 }
 .page-footer {
-  background-color: #ddd;
+	background-color: #ddd;
 	margin-top:48px;
 	margin-bottom:0;
 	padding-top:12px;
@@ -37,18 +37,18 @@
 }
 
 .game-data-box {
-  background-color: #555;
+	background-color: #555;
 	color: white;
-  border-radius: 8px;
+	border-radius: 8px;
 }
 
 .game-data-box .panel-heading{
-  margin-bottom: 12px;
-  background-color: #222;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 8px;
+	margin-bottom: 12px;
+	background-color: #222;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 8px;
 }
 
 .game-description-box{
@@ -85,19 +85,6 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
-/* //remove
-.nav-tabs > li{
-	padding-right: 20px;
-}
-*/
-
-/* //remove
-.tab-content > .active{
-	background-color: blue;
-	border-radius: 0px;
-}
-*/
 
 /* ========= VIDEO ========= */
 .video-container{
